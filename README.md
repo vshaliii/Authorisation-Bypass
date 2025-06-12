@@ -243,6 +243,17 @@ HEAD /admin
 - Use GET, POST, PUT, DELETE, PATCH, HEAD
 - Identify if any method exposes unintended behaviour
 
+## Impact of Authorizato=ion Bypass
+1. Unauthorized Access to Sensitive Data
+2. Attackers may elevate their privileges by accessing admin-only features or impersonating higher-privileged users, allowing:
+  a. Access to admin panels
+  b. Modification or deletion of data
+  c. Creation of new users or roles
+3. Indirect and direct financial losses due to:
+  a. Fraudulent transactions
+  b. Loss of proprietary data
+  c. Regulatory fines and penalties
+
 ## How to Prevent Authorization Bypass
 
 1. Enforce authorization on **every API and endpoint**
