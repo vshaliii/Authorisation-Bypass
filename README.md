@@ -243,7 +243,7 @@ HEAD /admin
 - Use GET, POST, PUT, DELETE, PATCH, HEAD
 - Identify if any method exposes unintended behaviour
 
-## Impact of Authorizato=ion Bypass
+## Impact of Authorization Bypass
 1. Unauthorized Access to Sensitive Data
 2. Attackers may elevate their privileges by accessing admin-only features or impersonating higher-privileged users, allowing:
   a. Access to admin panels
