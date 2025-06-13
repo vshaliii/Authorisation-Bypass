@@ -65,9 +65,9 @@ If you receive this:
 }
 ```
 
-**Impact**: This is a clear case of IDOR. You accessed another user’s private data without authorization.
+### **Impact**: This is a clear case of IDOR. You accessed another user’s private data without authorization.
 
-**Checklist**:
+### **Checklist**:
 
 - Access another user's resource
 - Change numeric or UUID values
